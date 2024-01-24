@@ -39,11 +39,10 @@ select {
 }
 
 .profileSection{
-    height: 15vh;
-    width: 100vw;
+    height: 20vh;
     background-color: rgb(3, 5, 20);
     color: #f0f0f0;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     display: flex;
     align-items: center; 
@@ -68,15 +67,21 @@ select {
 }
 
 .post {
-    background-color: rgb(3, 5, 20);
+    background-color: white;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 8px;
-    color: #f4f4f4;
+    color: black;
+    cursor: pointer;
+}
+
+.post.clicked {
+    background-color: rgb(3, 5, 20);
+    color: #f4f4f4; 
 }
 
 .comment {
-    background-color: #f0f0f0;
+    background-color: none;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 4px;
